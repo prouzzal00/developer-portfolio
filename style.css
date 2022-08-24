@@ -1,0 +1,40 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h1 span {
+    color: orangered;
+}
+
+section {
+    display: flex;
+}
+
+.heading {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.image img {
+    width: 80%;
+    padding-left: 5%;
+}
+
+.contact-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 20px;
+    border-radius: 5%;
+    font-weight: 700;
+}
+
+.background-banner {
+    background-image: url(images/reprojobs.png);
+    height: 100%;
+}

@@ -16,7 +16,11 @@ h1 span {
     color: orangered;
 }
 
-section {
+h1 span:hover {
+    color: darkorchid;
+}
+
+.flexible-cont {
     display: flex;
     margin-bottom: 150px;
 }
@@ -26,9 +30,17 @@ section {
     padding-left: 5%;
 }
 
+.heading:hover {
+    color: fuchsia;
+}
+
 .image img {
     width: 80%;
     padding-left: 5%;
+}
+
+.image img:hover {
+    box-shadow: 10px 10px 40px blueviolet;
 }
 
 .contact-button {
@@ -39,6 +51,10 @@ section {
     font-weight: 700;
 }
 
+.contact-button:hover {
+    background-image: linear-gradient(red, green);
+}
+
 
 #headd {
     width: 50%;
@@ -46,7 +62,45 @@ section {
     padding-top: 150px;
 }
 
+#headd:hover {
+    color: fuchsia;
+}
+
 .image2 img {
     width: 100%;
     padding: 40px
+}
+
+.image2 img:hover {
+    box-shadow: 10px 10px 40px blue;
+}
+
+.orange-color {
+    color: orangered;
+}
+
+.headingg {
+    width: 50%;
+    padding-left: 5%;
+    box-shadow: 10px 10px 40px red;
+    width: 40%;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+    border-left: 10px solid green;
+}
+
+.headingg:hover {
+    box-shadow: 10px 10px 40px teal;
+    border-left: 10px solid tomato;
+
+}
+
+.copyright {
+    text-align: center;
+}
+
+.expert:hover {
+    text-decoration: underline;
+    color: cyan;
 }

@@ -2,7 +2,11 @@ body {
     font-family: 'Lato', sans-serif;
     color: white;
     margin: 0;
+    background-image: url(images/reprojobs.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 h1 {
     font-size: 50px;
@@ -14,6 +18,7 @@ h1 span {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .heading {
@@ -34,7 +39,14 @@ section {
     font-weight: 700;
 }
 
-.background-banner {
-    background-image: url(images/reprojobs.png);
-    height: 100%;
+
+#headd {
+    width: 50%;
+    padding-left: 300px;
+    padding-top: 150px;
+}
+
+.image2 img {
+    width: 100%;
+    padding: 40px
 }
